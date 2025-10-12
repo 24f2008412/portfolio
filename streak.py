@@ -18,3 +18,5 @@ def longest_positive_streak(nums: list[int]) -> int:
         else:
             current_streak = 0
     return max_streak
+
+# retrigger workflow
