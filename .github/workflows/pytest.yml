@@ -15,5 +15,5 @@ jobs:
           python-version: '3.x'
       - name: Install dependencies
         run: pip install pytest
-      - name: Run tests
-        run: export PYTHONPATH=$PYTHONPATH:. && pytest
+      - name: Run pytest
+        run: pytest
